@@ -5,7 +5,7 @@ metadata:
 spec:
   replicas: 1
   selector:
-    matchLabel:
+    matchLabels:
       component: redis
   template:
     metadata:
